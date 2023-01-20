@@ -1,0 +1,30 @@
+@media screen and (min-width: 1000px) {
+    .myButton{
+        margin-top: 5em;
+        border-radius: 50px;
+        border:2px solid blue;
+        font-size: 15px;
+        font-weight: bold;
+        color: blue;
+        height: 3.5em;
+        min-width: 30em;
+        cursor: pointer;
+        background-color: white;
+        font-family: 'Roboto',Arial,sans-serif;
+    }
+}
+@media screen and (max-width: 980px) {
+    .myButton{
+        margin-top: 5em;
+        border-radius: 50px;
+        border:2px solid blue;
+        font-size: 15px;
+        font-weight: bold;
+        color: blue;
+        height: 3.5em;
+        min-width: 15em;
+        cursor: pointer;
+        background-color: white;
+        font-family: 'Roboto',Arial,sans-serif;
+    }
+}

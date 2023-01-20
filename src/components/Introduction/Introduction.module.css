@@ -1,0 +1,138 @@
+.container{
+    margin-top: 30px;
+    position: relative;
+    top:0;
+    left: 0;
+    right: 0;
+}
+
+.container img{
+    width:100%;
+    height: 33em;
+    border-radius:40px;
+    top:50%;
+    left: 50%;
+}
+.container__photo:after{
+    content:'';
+    min-width: 100%;
+    height: 33em;
+    position: absolute;
+    left: 0;
+    background-color: rgba(0,0,0,0.58);
+    border-radius: 40px;
+}
+.inner_text{
+
+}
+div{
+    display: block;
+}
+*,:after,:before{
+    box-sizing: content-box;
+}
+@media screen and (min-width: 1000px) {
+    .palleton{
+        display: inline;
+        position: absolute;
+        text-align: center;
+        top:28%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-weight: bold;
+        font-size: 50px;
+        font-family: 'Roboto',Arial,sans-serif;
+        line-height: 1.2;
+
+    }
+    .subPalleton{
+        display: inline;
+        position: absolute;
+        text-align: center;
+        top:55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 42%;
+        color: white;
+        font-size: 24px;
+        font-family: 'Roboto',Arial,sans-serif;
+        line-height: 1.3;
+        font-weight: normal;
+    }
+
+    .myButton a{
+        text-decoration: none;
+        display: inline;
+        position: absolute;
+        text-align: center;
+        top:78%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50px;
+        border:1px solid transparent;
+        font-size: 15px;
+        font-weight: bold;
+        color: blue;
+        height: 2.5em;
+        min-width: 20em;
+        cursor: pointer;
+        background-color: white;
+        font-family: 'Roboto',Arial,sans-serif;
+        padding: 17px 0 0 0;
+    }
+    .myButton a:after{
+        color: blue;
+    }
+}
+@media screen and (max-width: 980px) {
+    .palleton{
+        display: inline;
+        position: absolute;
+        text-align: center;
+        top:28%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-weight: bold;
+        font-size: 40px;
+        font-family: 'Roboto',Arial,sans-serif;
+        line-height: 1.2;
+        width: 100%;
+    }
+    .subPalleton{
+        display: inline;
+        position: absolute;
+        text-align: center;
+        top:55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        color: white;
+        font-size: 16px;
+        font-family: 'Roboto',Arial,sans-serif;
+        line-height: 1.3;
+        font-weight: normal;
+
+    }
+
+    .myButton{
+        display: inline;
+        position: absolute;
+        text-align: center;
+        top:78%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50px;
+        border:1px solid transparent;
+        font-size: 13px;
+        font-weight: bold;
+        color: blue;
+        height: 3.5em;
+        min-width: 15em;
+        cursor: pointer;
+        background-color: white;
+        font-family: 'Roboto',Arial,sans-serif;
+
+    }
+}
